@@ -9,7 +9,7 @@ Build Process Cheat Sheet
 
 ## Base Install - Ubuntu 20.x
 ```
-sudo snap install microk8s --classic --channel=1.23/stable
+sudo snap install microk8s --classic --channel=1.25/stable
 ```
 ```
 sudo microk8s status --wait-ready
@@ -39,7 +39,7 @@ The new group will be available on the user's next login.
 
 1. Install Ingress Bare Metal
 ```
-sudo kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.1/deploy/static/provider/baremetal/deploy.yaml
+sudo kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.1/deploy/static/provider/baremetal/deploy.yaml
 
 ```
 - Reference [bare Metal](https://kubernetes.github.io/ingress-nginx/deploy/#bare-metal)
